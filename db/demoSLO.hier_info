@@ -1,0 +1,17 @@
+|DEMOSLO24_VHDL
+entreeA => sortie.IN0
+entreeA => sortie.IN0
+entreeA => Equal0.IN0
+entreeA => Equal1.IN0
+entreeB => sortie.IN1
+entreeB => sortie.IN1
+entreeB => sortie1.DATAIN
+entreeB => sortie2.DATAIN
+entreeB => Equal0.IN1
+entreeB => Equal1.IN1
+sortie <= sortie.DB_MAX_OUTPUT_PORT_TYPE
+sortie1 <= entreeB.DB_MAX_OUTPUT_PORT_TYPE
+sortie2 <= entreeB.DB_MAX_OUTPUT_PORT_TYPE
+sortie3 <= sortie3.DB_MAX_OUTPUT_PORT_TYPE
+
+
